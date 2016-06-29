@@ -76,7 +76,7 @@ make install CC=mipsel-linux-gcc AR="mipsel-linux-ar r" RANLIB=mipsel-linux-ranl
 ############ ################################################################
 
 mkdir $SRC/libevent && cd $SRC/libevent
-$WGET https://github.com/downloads/libevent/libevent/libevent-2.0.22-stable.tar.gz
+$WGET https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz
 tar zxvf libevent-2.0.22-stable.tar.gz
 cd libevent-2.0.22-stable
 
