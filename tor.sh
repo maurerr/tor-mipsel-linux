@@ -96,9 +96,9 @@ make install DESTDIR=$BASE
 ####### #####################################################################
 
 mkdir $SRC/tor && cd $SRC/tor
-$WGET https://www.torproject.org/dist/tor-0.2.7.6.tar.gz
-tar zxvf tor-0.2.7.6.tar.gz
-cd tor-0.2.7.6
+$WGET https://www.torproject.org/dist/tor-0.2.8.4-rc.tar.gz
+tar zxvf tor-0.2.8.4-rc.tar.gz
+cd tor-0.2.8.4-rc
 
 LDFLAGS=$LDFLAGS \
 CPPFLAGS=$CPPFLAGS \
